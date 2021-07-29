@@ -2603,6 +2603,23 @@ figure.dotted-bg:before {
   transition: .5s;
 }
 
+.cop-mobile{
+  height: 2%;
+  position: relative;
+  bottom: -12rem;
+  left: -21rem;
+}
+
+@media (max-width: 991.98px) {
+  .cop-mobile{
+    width: 100%;    
+    background-color: rgba(0, 0, 0, 0.05);
+    text-align: center;
+    bottom:0rem ; 
+    left: 0rem;   
+    }
+  }
+
 .loader-portfolio-wrap {
   text-align: center;
   display: none;
@@ -2850,14 +2867,14 @@ span.error {
   }
 }
 
-.gsap-reveal .cover {
+/* .gsap-reveal .cover {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background: black;
-}
+} */
 
   .gsap-reveal-hero { 
   line-height: 0;

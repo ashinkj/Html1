@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap"); */
 body {
   font-family: "Raleway", sans-serif;
   color:black;
@@ -114,6 +114,37 @@ a, a:hover {
   box-shadow:inset 8px 8px 8px rgba(0,0,0,.1),inset -8px -8px 8px rgba(0,0,0,0.3);
   border-radius: 30px;
 }
+/* .text-underline{
+  position: relative;
+  height: 3rem;
+}
+
+
+.text-underline::after{
+  content: "About Me sddfwe";
+  position: absolute;
+  left: 2.7em;
+  top:.5em;
+  font-size:1.3rem;
+  /* color: transparent; */
+  /* position: absolute;
+  text-decoration-style: wavy;
+  text-decoration-color: #000;
+  text-decoration-line: underline;
+  animation: animate2 1s linear infinite;
+}
+
+@keyframes animate2
+{
+  0%
+  {
+    transform: translateX(-1px);
+  }
+  100%
+  {
+    transform: translateX(-55px);
+  }
+} */
 /* 
 .gsap-reveal a{
   color: #000;
@@ -132,6 +163,43 @@ a, a:hover {
   font-size: 20px;
   z-index: 3;
 } */
+
+.flower-effect
+{
+  height: 100vh;
+  box-shadow: -15px -15px 15px rgba(255,255,255,0.2),15px 15px 15px rgba(0,0,0,0.1),inset -5px -5px 5px rgba(255,255,255,0.2),inset 5px 5px 5px rgba(0,0,0,0.1);
+  padding: 60px 37px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+@media (max-width: 991.98px) {
+  .flower-effect{
+    margin:0px 18px 10px 16px;
+  }
+}
+.content-flower{
+  width: 100%;
+}
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 8px;
+  margin: 0;
+  text-align: center;
+}
+@media (max-width: 991.98px) {
+  .about{
+    display: none;
+  }
+}
+
 .button-cv{
 position: relative;
 display: inline-block;
@@ -1806,7 +1874,7 @@ figure.dotted-bg:before {
 
 @media (max-width: 767.98px) {
   .box-effect {
-    margin:0px 18px 10px 16px
+    margin:0px 18px 10px 16px;
   }
 }
 

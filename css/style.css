@@ -166,24 +166,35 @@ a, a:hover {
 
 .flower-effect
 {
-  height: 100vh;
+  position: relative;
+  /* height: 100vh; */
   box-shadow: -15px -15px 15px rgba(255,255,255,0.2),15px 15px 15px rgba(0,0,0,0.1),inset -5px -5px 5px rgba(255,255,255,0.2),inset 5px 5px 5px rgba(0,0,0,0.1);
   padding: 60px 37px;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  
 }
-@media (max-width: 991.98px) {
+ @media (max-width: 991.98px) {
   .flower-effect{
+    position: relative;
+    height: 76vh;
     margin:0px 18px 10px 16px;
   }
+} 
+/* .content-flower{
+  position: absolute;
+}  */
+ @media (max-width: 991.98px) {
+  .content-flower{
+    position: absolute;
+  }
+  
 }
-.content-flower{
-  width: 100%;
-}
+
 .about{
+ 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -198,7 +209,7 @@ a, a:hover {
   .about{
     display: none;
   }
-}
+} 
 
 .button-cv{
 position: relative;

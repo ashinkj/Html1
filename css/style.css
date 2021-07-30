@@ -164,6 +164,19 @@ a, a:hover {
   z-index: 3;
 } */
 
+.owl-item{
+  /* height: 7rem; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: -15px -15px 15px rgba(255,255,255,0.2),15px 15px 15px rgba(0,0,0,0.1),inset -5px -5px 5px rgba(255,255,255,0.2),inset 5px 5px 5px rgba(0,0,0,0.1); */
+  /* padding: 60px 23px; */
+  border-radius: 10px;
+  /* margin: 0 4px; */
+}
+
+
 .flower-effect
 {
   position: relative;

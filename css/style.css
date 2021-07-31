@@ -2229,6 +2229,7 @@ figure.dotted-bg:before {
   align-items: center;
   justify-content: center;
   /* background-image: linear-gradient(to right, red , yellow); */
+  background-color: rgba(242,242,242);
   }
   @media (max-width: 991.98px) {
   .footer-class{

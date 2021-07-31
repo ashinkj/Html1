@@ -2234,7 +2234,7 @@ figure.dotted-bg:before {
   @media (max-width: 991.98px) {
   .footer-class{
         clip-path: none;
-        background: none;
+        background: rgba(242,242,242);
         
     }
   }

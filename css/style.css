@@ -981,8 +981,8 @@ border-bottom: 1px solid black;
 
 @media (max-width: 991.98px) {
   .cover-v1 {
-    height: 62vh;
-    min-height: 450px;
+    height: 82vh;
+    /* min-height: 450px; */
   }
 }
 
@@ -1003,7 +1003,7 @@ border-bottom: 1px solid black;
 }
 
 .cover-v1 .subheading {
-  font-size: 33px;
+  font-size: 4vw;
   color: #fff;
   position: relative;
   top: 3.4rem;
@@ -1011,9 +1011,10 @@ border-bottom: 1px solid black;
 
 @media (max-width: 991.98px) {
   .cover-v1 .subheading {
-    font-size: 16px;
+    font-size: 5vw;
     position: relative;
-    top: -6.4rem;
+    top: -2.4rem;
+    
   }
 }
 
@@ -1021,7 +1022,7 @@ border-bottom: 1px solid black;
   @media (max-width: 991.98px){
     .mouse-scroll{
       position: relative;
-      top:-22rem;
+      top:-12rem;
   }
 }
 
@@ -1039,7 +1040,7 @@ border-bottom: 1px solid black;
   .liquid {
     height: 10%;
     position: relative;
-    top: -8.7rem;
+    top: -5.7rem !important;
   }
 }
 .liquid h1{
@@ -1642,7 +1643,7 @@ figure.dotted-bg:before {
   box-shadow: -15px -15px 15px rgba(255,255,255,0.2),15px 15px 15px rgba(0,0,0,0.1),inset -5px -5px 5px rgba(255,255,255,0.2),inset 5px 5px 5px rgba(0,0,0,0.1);
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
 .counter-v1{
       /* border: 0px solid #000;
       padding-top: 31px;
@@ -2142,18 +2143,18 @@ figure.dotted-bg:before {
   
 } */
 
-.try{
+/* .try{
   height: 100%;
   
-}
+} */
 
 .footer-class{
   height:6%;
-  clip-path: polygon(50% 15%, 100% 0, 100% 100%, 0 100%, 0 0);
+  /* clip-path: polygon(50% 15%, 100% 0, 100% 100%, 0 100%, 0 0); */
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to right, red , yellow);
+  /* background-image: linear-gradient(to right, red , yellow); */
   }
   @media (max-width: 991.98px) {
   .footer-class{
@@ -2176,7 +2177,7 @@ figure.dotted-bg:before {
     
   
 
-
+/* 
 .bubble1{
   position: relative;
   width: 40%;
@@ -2193,7 +2194,7 @@ figure.dotted-bg:before {
   .bubble1{
      display: none;
   }
-}
+} */
 
 .footer-class a {
   color: rgba(255, 255, 255, 0.6);
@@ -2619,10 +2620,13 @@ figure.dotted-bg:before {
 }
 
 .cop-mobile{
-  height: 2%;
+  /* height: 2%;
   position: relative;
   bottom: -12rem;
-  left: -21rem;
+  left: -21rem; */
+  width: 100%;    
+  background-color: rgba(0, 0, 0, 0.05);
+  text-align: center;
 }
 
 @media (max-width: 991.98px) {
@@ -2633,6 +2637,13 @@ figure.dotted-bg:before {
     bottom:0rem ; 
     left: 0rem;   
     }
+  }
+
+  .copy-effect{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
   }
 
 .loader-portfolio-wrap {

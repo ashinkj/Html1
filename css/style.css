@@ -1497,7 +1497,7 @@ border-bottom: 1px solid black;
   line-height: 1.4em;
 }
 
-.card button {
+.card input[type=button]{
 background-color: var(--maincolor);
 font-weight:700;
 letter-spacing: 2px;
@@ -1512,10 +1512,15 @@ text-transform: uppercase;
 margin-top: auto;
 }
 
-.card button:hover{ 
+.card input[type=button]:hover{ 
   background-color: var(--accentcolor);
 }
 
+@media (max-width:991.98px){
+  .card input[type=button]{
+       margin-top: auto;
+  }
+}
 @media (max-width:991.98px){
 .wrapper{
   flex-direction: column;

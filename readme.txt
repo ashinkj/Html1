@@ -1,1 +1,1 @@
-Thank you for using our template!
+Hey,it is a sample project

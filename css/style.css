@@ -111,7 +111,7 @@ a, a:hover {
   font-weight: 600;
   font-size: 20px;
   margin-left: 22px;
-  box-shadow:inset 8px 8px 8px rgba(0,0,0,.1),inset -8px -8px 8px rgba(0,0,0,0.3);
+  box-shadow:inset 8px 8px 8px rgba(0,0,0,.1),inset -8px -8px 8px rgba(0,0,0,0.1);
   border-radius: 30px;
 }
 /* .text-underline{
@@ -963,7 +963,7 @@ border-bottom: 1px solid black;
 }
 
 .cover-v1 .container, .cover-v1 .container > .row {
-  height: 142vh;
+  height: 100vh;
   min-height: 650px;
 }
 
@@ -981,7 +981,8 @@ border-bottom: 1px solid black;
 
 @media (max-width: 991.98px) {
   .cover-v1 {
-    height: 100vh;
+    height: 62vh;
+    min-height: 450px;
   }
 }
 
@@ -1012,7 +1013,7 @@ border-bottom: 1px solid black;
   .cover-v1 .subheading {
     font-size: 16px;
     position: relative;
-    top: -7.4rem;
+    top: -6.4rem;
   }
 }
 
@@ -1928,7 +1929,7 @@ figure.dotted-bg:before {
   border-radius:25px;
   color:black;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  box-shadow: inset 8px 8px 8px rgba(0,0,0,.1),inset -8px -8px 8px rgba(0,0,0,0.3);
+  box-shadow: inset 8px 8px 8px rgba(0,0,0,.1),inset -8px -8px 8px rgba(0,0,0,0.1);
   background: transparent;
   padding: 12px;
   margin: 3px;

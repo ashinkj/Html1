@@ -120,24 +120,25 @@ a, a:hover {
   box-shadow:inset 8px 8px 8px rgba(0,0,0,.1),inset -8px -8px 8px rgba(0,0,0,0.1);
   border-radius: 30px;
 }
-/* .text-underline{
-  position: relative;
-  height: 3rem;
-}
 
 
-.text-underline::after{
-  content: "About Me sddfwe";
-  position: absolute;
-  left: 2.7em;
-  top:.5em;
-  font-size:1.3rem;
-  /* color: transparent; */
-  /* position: absolute;
+ .text-underline{ 
+    background-repeat: repeat-x;
+  }
+  .underline--stars {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/star.svg");
+    background-position: 0px 1.06em;
+    background-size: 3px 8px;
+    color: #f2f3f8;
+    padding-bottom: 3px;
+  }
+   /* color: transparent;  */
+   /* position: absolute;
   text-decoration-style: wavy;
   text-decoration-color: #000;
   text-decoration-line: underline;
   animation: animate2 1s linear infinite;
+  padding: .2rem;
 }
 
 @keyframes animate2
@@ -149,8 +150,9 @@ a, a:hover {
   100%
   {
     transform: translateX(-55px);
+    
   }
-} */
+}  */
 /* 
 .gsap-reveal a{
   color: #000;
@@ -987,7 +989,7 @@ border-bottom: 1px solid black;
 
 @media (max-width: 991.98px) {
   .cover-v1 {
-    height: 90vh;
+    height: 94vh;
     min-height: 450px;
   }
 }
@@ -1046,12 +1048,12 @@ border-bottom: 1px solid black;
   .liquid {
     height: 10%;
     position: relative;
-    top: -5.7rem !important;
+    top: -5rem !important;
   }
 }
 .liquid h1{
   position: absolute;
-  font-size: 12vw;
+  font-size: 15vw;
   font-weight: 900;
 
 }
